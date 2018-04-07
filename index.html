@@ -11,11 +11,51 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navMain">
+        <div class="container">
+            <a class="smooth-scroll" href="#page-top">Pig Dice</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#modal-rules" data-toggle="modal">Game Rules</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <form action="" id="player-names">
+            <div class="form-group">
+                <input type="text" id="name-player" placeholder="EnterName">
+            </div>
+            <button type="submit" class="btn btn-info" id="submit">Submit</button>
+        </form>
         <div class="row">
-            <div class="col-md-10">
-                <button class="btn btn-danger btn-lg" id="roll-dice">Roll</button>
-                <button id="hold" class="btn btn-success btn-lg">Hold</button>
+            <div class="col-md-7">
+            </div>
+        </div>
+        <div class="row" data-id>
+            <div class="col-md-6">
+                <h2 id="roll-result"></h2>
+            </div>
+            <button class="btn btn-secondary" id="start">Start</button>
+            <button class="btn btn-success" id="roll">Roll</button>
+            <button class="btn btn-info" id="hold">Hold</button>
+        </div>
+        <div class="row">
+            <div class="col-md-6 names" id="name1">
+                <h1></h1>
+                <h4></h4>
+                <h5></h5>
+            </div>
+            <div class="col-md-6 names" id="name2">
+                <h1></h1>
+                <h4></h4>
+                <h5></h5>
             </div>
         </div>
     </div>
