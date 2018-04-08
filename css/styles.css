@@ -64,6 +64,8 @@ html {
 .center-panel p {
     padding-top: 1em;
     padding-bottom: 1em;
+    font-size: 1.5em;
+    color: rgba(255, 0, 0, 0.616);
 }
 
 .winner {
