@@ -5,6 +5,7 @@
 ## Description
 The Pig-Dice game is a fun game based on two players rolling a dice.
 
+## Specifications
 A player rolls the die until either:
 
     1. A one is rolled
@@ -14,9 +15,9 @@ When a one is rolled, accumulated points are discarded and the other player take
 
 When Hold is pressed, the accumulated points are added to the player's final Score.
 
-The other player then takes the die over
+The other player then takes the die over.
 
-The first player to get 100 is the Winner!
+### The first player to get 100 is the Winner!
 
 ## Preview
 **[Click here](https://devwaweru.github.io/Pig-Dice)** to see the live site.
